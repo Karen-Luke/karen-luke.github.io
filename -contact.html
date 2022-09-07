@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="styleESI.css" type="text/css" rel="stylesheet">
+    <body>
+<!--Navigation and menu-->
+<nav class="topnav" id="ESITopnav">
+    <a href="-contact.html">Contact</a>
+    <a href="-research.html">Research</a>
+    <a href="-organisations.html">Organisations</a>
+    <a href="-riders.html">Riders</a>
+    <a href="indexESI.html">Home</a>
+
+    <br><br>
+    <main>
+
+        <div id="Contact">
+            <h3>Contact</h3>
+            <p>We are here to help riders and equestrian organisations reach their goals. <br>
+                Please reach out to us for a no obligation informal chat, to arrange a meeting or discuss how we can help you.</p>
+            <form>
+                <label for="name">Name:</label>
+                <br>
+                <input id="name" name="name"  type="text"  required>
+                <br><br>
+                <label for="email">Email:</label> <br>
+                <input id="email" name="email"  type="text"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+                <br><br>
+                <label for="mobile">Mobile (optional):</label> <br>
+                <input id="mobile" name="mobile"  type="tel"  pattern="[0-9]{10,16}">
+                <br><br>
+                <label for ="textarea">Your message:</label>
+                <br>
+                <textarea id="textarea" name="textarea" rows="5" cols="30" required>
+                </textarea>
+                <br><br>
+                <input type="submit" value="Send">
+            </form>
+        </div>
+    </main>
+    </body>
+</head>
